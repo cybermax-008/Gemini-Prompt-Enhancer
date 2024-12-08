@@ -1,1 +1,1 @@
-# Prompt-Generator-and-Enhancer-for-Gemini-models
+# Gemini Prompt Generator
