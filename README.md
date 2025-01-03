@@ -39,29 +39,29 @@ The Gemini Prompt Enhancer provides several key features and benefits to help yo
 ## Usage
 
 ### 1. Setup
-    - Clone or download the repository
-    - Create a virtual environment using python 3.9 or above,
+- Clone or download the repository
+- Create a virtual environment using python 3.9 or above,
     ```
     python -m venv venv
     ```
-    - Activate the virtual environment,
+- Activate the virtual environment,
     ```
     source venv/bin/activate
     ```
-    - Create a `.env` file in the root directory containing your Gemini API key:
+- Create a `.env` file in the root directory containing your Gemini API key:
       ```
         GEMINI_API_KEY=your_api_key
-        ```
-    - Install the required packages via requirements.txt
+            ```
+- Install the required packages via requirements.txt
       ```
       pip install -r requirements.txt
       ```
 ### 2. Running the Enhancer
-    - Run the `main.py` script from the root directory,
+- Run the `main.py` script from the root directory,
       ```
        python gemini_prompt_enhancer/main.py
        ```
-   - You will be prompted to enter a raw prompt. Enter your prompt and press Enter, or type `exit` and press Enter to quit the program.
+- You will be prompted to enter a raw prompt. Enter your prompt and press Enter, or type `exit` and press Enter to quit the program.
 
 ### 3. Example
 ```
@@ -150,12 +150,14 @@ Enhanced Prompt:
 ```
 ### 4. Next steps
 Copy the output, and insert into your gemini prompt, and provide the inputs.
-For example:
+
+For example replace the placeholder tags with your context variables :
 ```
   <complaint>{$COMPLAINT}</complaint>
   <customer_name>{$CUSTOMER_NAME}</customer_name>
   <company_name>{$COMPANY_NAME}</company_name>
 ```
+
 ## Project Structure
 ```
 Gemini-Prompt-Enhancer
